@@ -1,0 +1,27 @@
+{
+  "name": "argument-required",
+  "version": "1.0.0",
+  "description": "Simple Required Argument Validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volem/argument-required.git"
+  },
+  "keywords": [
+    "validator",
+    "required"
+  ],
+  "author": "volem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Volem/argument-required/issues"
+  },
+  "homepage": "https://github.com/Volem/argument-required#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "mocha": "^5.2.0"
+  }
+}
