@@ -2,7 +2,9 @@
 module.exports = (...argumentName) => (...argumentArray) => {
 	argumentName.forEach(function (name, index) {
 		if (!argumentArray[index]) {
-			throw new Error(`Argument error : ${name}`);
+			const error = new Error(`Argument required : ${name}`);
+			error.name = 'ArgumentRequiredError';
+			throw error;
 		}
 	});
 };
