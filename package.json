@@ -1,6 +1,6 @@
 {
   "name": "argument-required",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Required Argument Validator",
   "main": "index.js",
   "scripts": {
